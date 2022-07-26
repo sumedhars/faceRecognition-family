@@ -40,8 +40,8 @@ while True:
         right = right*5
         bottom = bottom*5
         left = left*5
-        cv2.rectangle(frame,(left,top),(right,bottom),(0,0,255),2)
-        cv2.putText(frame,name,(left,top-6),font,.75,(0,0,255),2)
+        cv2.rectangle(frame,(left,top),(right,bottom),(0,255,255),2)
+        cv2.putText(frame,name,(left,top-6),font,.75,(255,0,0),2)
 
     cv2.imshow('Picture',frame)
     cv2.moveWindow('Picture',0,0)
