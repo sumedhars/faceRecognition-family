@@ -1,3 +1,5 @@
+# code is inspired by video lessons on Paul McWhorter's Youtube page.
+
 import face_recognition
 import cv2
 import os #lets us automate the training
