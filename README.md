@@ -14,3 +14,6 @@ crucial that the file is named as 'FirstName LastName.jpg'. Only one image of th
 2. To train the model on my family member's faces, run the trainSave.py file. A 'train_family.pkl' file will be generated. 
 3. To run the model using a webcam, run the faceRecognize-liveVideo.py file. The webcam will start up and will start recognizing faces.
 4. To exit the application, press 'q' on your keyboard. Please note that pressing the 'x' on the pop-up window will simply restart a new camera window.
+
+
+To make sure you have the necessary libraries to run the project, check out: https://www.youtube.com/watch?v=yOdVnQuhfeI
