@@ -13,3 +13,4 @@ the 'train_pkl' file can be deleted. To add more training data/faces to the mode
 crucial that the file is named as 'FirstName LastName.jpg'. Only one image of the person is needed to train the model.
 2. To train the model on my family member's faces, run the trainSave.py file. A 'train_family.pkl' file will be generated. 
 3. To run the model using a webcam, run the faceRecognize-liveVideo.py file. The webcam will start up and will start recognizing faces.
+4. To exit the application, press 'q' on your keyboard. Please note that pressing the 'x' on the pop-up window will simply restart a new camera window.
