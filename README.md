@@ -8,7 +8,7 @@ This software could be potentially used to help detect who is at the door, and i
 detect the unknown person's face and label it as 'Unknown Person'.
 
 Step/Details to run this project:
-1. The 'train_family.pkl' file is a pickle file that stores the training data used to detect my family member's faces. To train this project from scratch,
+1. The 'train_family.pkl' file is a pickle file that stores the training data used to detect my family member's faces. To train this model from scratch,
 the 'train_family.pkl' file can be deleted. To add more training data/faces to the model, add more face images to the familyImages directory. It is 
 crucial that the file is named as 'FirstName LastName.jpg'. Only one image of the person is needed to train the model.
 2. To train the model on my family member's faces, run the trainSave.py file. A 'train_family.pkl' file will be generated. 
